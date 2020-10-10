@@ -1,0 +1,7 @@
+FROM amelin/gunicorn:python3.8
+
+LABEL maintainer="Igor Amelin <i.amelin95@yandex.ru>"
+
+RUN pip install --no-cache-dir flask
+
+ADD app/ /app

@@ -1,0 +1,7 @@
+FROM python:3.6-alpine3.12
+
+LABEL maintainer="Igor Amelin <i.amelin95@yandex.ru>"
+
+RUN pip install --no-cache-dir flask
+
+ADD app/ /app
