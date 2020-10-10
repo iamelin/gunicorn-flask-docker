@@ -24,6 +24,7 @@ and the Flask object must be named `app`.
 2. Pull the image from Docker Hub:
 ```docker pull amelin/gunicorn-flask:python3.8```
 3. Create `Dockerfile` with the following content:
+
 ```
 FROM amelin/gunicorn-flask:python3.8
 
